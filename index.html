@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Serli Amelan</title>
+   
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <a href="#home" class="logo">Serli <span>.</span></a>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon" aria-label="Buka menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="nav-menu">
+            <a href="#home">Beranda</a>
+            <a href="#tentang">Tentang Saya</a>
+            <a href="#proyek">Proyek</a>
+            <a href="#kontak" class="nav-button">Kontak</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero section" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">HALO, SELAMAT DATANG!</p>
+
+                <h1>Saya <span>Serli Amelan</span></h1>
+
+                <h2>Mahasiswa yang tertarik dengan dunia teknologi</h2>
+
+                <p class="hero-description">
+                    Saya sedang belajar mengembangkan kemampuan di bidang
+                    teknologi dan pemrograman web. Website ini menjadi
+                    tempat untuk memperkenalkan diri dan menampilkan
+                    beberapa proyek latihan saya.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#proyek" class="button button-primary">
+                        Lihat Proyek
+                    </a>
+                    <a href="#kontak" class="button button-outline">
+                        Hubungi Saya
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="profile-photo">
+                    <img src="foto/serli (2).jpeg"
+                         alt="Foto profil Serli Amelan">
+                </div>
+                <div class="photo-caption">
+                    <span>Perkenalkan, saya Serli.</span>
+                    <span class="caption-dot"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tentang Saya -->
+        <section class="about section" id="tentang">
+            <div class="section-heading">
+                <p class="eyebrow">TENTANG SAYA</p>
+                <h2>Kenali saya lebih dekat</h2>
+            </div>
+
+            <div class="about-content">
+                <p>
+                    Saya adalah mahasiswa yang sedang mempelajari
+                    pemrograman dan pengembangan website. Saya senang
+                    mencoba hal baru, mengerjakan latihan, serta
+                    meningkatkan kemampuan melalui berbagai proyek.
+                </p>
+
+                <div class="about-cards">
+                    <div class="about-card">
+                        <span class="about-icon">01</span>
+                        <h3>Pengembangan Web</h3>
+                        <p>Belajar membuat website dengan HTML, CSS, dan PHP.</p>
+                    </div>
+
+                    <div class="about-card">
+                        <span class="about-icon">02</span>
+                        <h3>Desain Antarmuka</h3>
+                        <p>Mempelajari desain tampilan yang rapi dan mudah digunakan.</p>
+                    </div>
+
+                    <div class="about-card">
+                        <span class="about-icon">03</span>
+                        <h3>Membaca</h3>
+                        <p>Menikmati novel dan menemukan inspirasi dari cerita.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyek -->
+        <section class="projects section" id="proyek">
+            <div class="section-heading">
+                <p class="eyebrow">PROYEK SAYA</p>
+                <h2>Beberapa hasil latihan saya</h2>
+                <p class="section-description">
+                    Berikut beberapa proyek yang saya kerjakan selama belajar.
+                </p>
+            </div>
+
+            <div class="project-grid">
+                <!-- Proyek 1 -->
+                <article class="project-card">
+                    <div class="project-image academic">
+                        <span class="project-number">01</span>
+                        <div class="preview-box">
+                            <div class="preview-top">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <div class="preview-content">
+                                <div class="preview-line"></div>
+                                <div class="preview-line short"></div>
+                                <div class="preview-button"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Portal Akademik Sederhana</h3>
+                        <p>
+                            Website latihan untuk menampilkan halaman
+                            akademik dan formulir data mahasiswa.
+                        </p>
+                        <div class="project-footer">
+                            <span>HTML · CSS · PHP</span>
+                            <a href="#modal-akademik" aria-label="Detail Portal Akademik">↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyek 2 -->
+                <article class="project-card">
+                    <div class="project-image library">
+                        <span class="project-number">02</span>
+                        <div class="library-preview">
+                            <div class="book book-one">READ</div>
+                            <div class="book book-two">BOOKS</div>
+                            <div class="book book-three">AGAIN</div>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Portal Perpustakaan</h3>
+                        <p>
+                            Website latihan untuk menampilkan peraturan
+                            peminjaman dan perhitungan denda buku.
+                        </p>
+                        <div class="project-footer">
+                            <span>HTML · CSS · PHP</span>
+                            <a href="#modal-perpustakaan" aria-label="Detail Portal Perpustakaan">↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyek 3 -->
+                <article class="project-card">
+                    <div class="project-image kost">
+                        <span class="project-number">03</span>
+                        <div class="kost-preview">
+                            <div class="kost-top">CARI TEMPAT TINGGAL</div>
+                            <div class="kost-house">
+                                <div class="house-roof"></div>
+                                <div class="house-body">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="kost-bottom">Kost Ta'</div>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Kost Ta'</h3>
+                        <p>
+                            Konsep desain aplikasi pencarian akomodasi
+                            untuk mahasiswa.
+                        </p>
+                        <div class="project-footer">
+                            <span>UI/UX · FIGMA</span>
+                            <a href="#modal-kost" aria-label="Detail Kost Ta'">↗</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Kontak -->
+        <section class="contact section" id="kontak">
+            <div class="contact-content">
+                <p class="eyebrow">KONTAK</p>
+                <h2>Mari terhubung</h2>
+                <p>
+                    Jika ingin bertanya atau berbagi ide, silakan
+                    kirim pesan melalui formulir di samping.
+                </p>
+            </div>
+
+            <div class="contact-form-card">
+                <form action="mailto:emailkamu@example.com"
+                      method="post"
+                      enctype="text/plain">
+
+                    <div class="form-group">
+                        <label for="nama">Nama lengkap</label>
+                        <input type="text"
+                               id="nama"
+                               name="Nama"
+                               placeholder="Masukkan nama kamu"
+                               minlength="3"
+                               required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Alamat email</label>
+                        <input type="email"
+                               id="email"
+                               name="Email"
+                               placeholder="nama@email.com"
+                               required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pesan">Pesan</label>
+                        <textarea id="pesan"
+                                  name="Pesan"
+                                  rows="5"
+                                  placeholder="Tuliskan pesan kamu..."
+                                  minlength="10"
+                                  required></textarea>
+                    </div>
+
+                    <button type="submit" class="button button-primary">
+                        Kirim Pesan ↗
+                    </button>
+
+                    <p class="form-note">
+                        Pastikan data sudah benar sebelum mengirim.
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="logo footer-logo">Serli<span>.</span></a>
+        <p>Portofolio pribadi · 2026</p>
+        <a href="#home" class="back-top">Kembali ke atas ↑</a>
+    </footer>
+
+    <!-- Modal Proyek 1 -->
+    <div class="modal" id="modal-akademik">
+        <div class="modal-card">
+            <a href="#proyek" class="modal-close" aria-label="Tutup modal">×</a>
+            <p class="eyebrow">DETAIL PROYEK</p>
+            <h2>Portal Akademik Sederhana</h2>
+            <p>
+                Proyek latihan untuk mempelajari struktur HTML,
+                tampilan CSS, dan pengolahan formulir menggunakan PHP.
+            </p>
+            <p class="modal-tech">Teknologi: HTML, CSS, PHP</p>
+            <a href="#kontak" class="button button-primary">Hubungi Saya</a>
+        </div>
+    </div>
+
+    <!-- Modal Proyek 2 -->
+    <div class="modal" id="modal-perpustakaan">
+        <div class="modal-card">
+            <a href="#proyek" class="modal-close" aria-label="Tutup modal">×</a>
+            <p class="eyebrow">DETAIL PROYEK</p>
+            <h2>Portal Perpustakaan</h2>
+            <p>
+                Proyek latihan untuk menampilkan informasi peminjaman,
+                kategori anggota, dan perhitungan denda buku.
+            </p>
+            <p class="modal-tech">Teknologi: HTML, CSS, PHP</p>
+            <a href="#kontak" class="button button-primary">Hubungi Saya</a>
+        </div>
+    </div>
+
+    <!-- Modal Proyek 3 -->
+    <div class="modal" id="modal-kost">
+        <div class="modal-card">
+            <a href="#proyek" class="modal-close" aria-label="Tutup modal">×</a>
+            <p class="eyebrow">DETAIL PROYEK</p>
+            <h2>Kost Ta'</h2>
+            <p>
+                Konsep antarmuka aplikasi pencarian tempat tinggal
+                bagi mahasiswa dengan tampilan sederhana dan jelas.
+            </p>
+            <p class="modal-tech">Teknologi: Figma, UI/UX Design</p>
+            <a href="#kontak" class="button button-primary">Hubungi Saya</a>
+        </div>
+    </div>
+
+</body>
+</html>
